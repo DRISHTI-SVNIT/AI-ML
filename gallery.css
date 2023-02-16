@@ -1,0 +1,214 @@
+/* custom fonts */
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-Regular.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Regular.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-Light.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Light.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Light.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-Medium.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Medium.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-Bold.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Bold.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-ExtraBold.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-ExtraBold.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-ExtraBold.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+
+
+
+
+/* start */
+
+
+
+
+
+html
+{
+    overflow-x: hidden;
+}
+.navbar-nav{
+    /* font-family: Arial; */
+    font-size: 20px;
+}
+
+.svnit_photo{
+   width:150px;
+   height: auto;
+   margin-left: 10px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+.v1 {
+    height: 70px;
+    border-left: 1px solid white;
+    position: relative;
+    top : 0;
+    margin-left: 0%;
+}
+.v2 {
+    height: 70px;
+    border-left: 1px solid black;
+    position: relative;
+    top : 0;
+    margin-left: 0%;
+}
+
+.nit_photo{
+    width:80px;
+    height: auto;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body
+{
+    font-family: 'PlusJakartaSans', Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+    background-image: url(images/s.jpg);
+}
+
+.teams-head1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20PX;
+}
+
+.teams-title1{
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+.teams-title1 h2{
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 3vw;
+    /* color: rgb(20,34,41); */
+    /* color: white; */
+    /* border: 2px solid rgb(20,34,41); */
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 14px 50px 14px 50px;
+    transition: 0.1s ease;
+}
+
+.teams-title1 h2:hover{
+    /* background-color: rgb(20,34,41);
+    color: rgb(245, 251, 253); */
+    background-color: white;
+    color: black;
+    transition: 0.2s ease;
+}
+.carousel-inner{
+    height: 35vw;
+    width:auto;
+    align-content: center;    
+}
+.img-fluid{
+    align-self: auto;
+    /* width: 55vw; */
+    height: 35vw;
+    border: 1px solid black;
+}
+
+
+
+.h ul li:hover{
+  /*  background-color:rgb(211,211,211); */
+    font-weight: bolder;
+}
+
+
+
+
+@media (max-width:640px){
+    .v1 {
+        height: 50px;
+    }
+    .v2 {
+        height: 50px;
+    }
+
+    .nit_photo{
+        width:50px;
+        height: auto;
+        margin-left: 7px;
+        margin-right: 3px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .carousel-inner{
+        height: 90vw;
+        align-content: center;   
+    }
+    .img-fluid{
+        align-self: auto;
+        width: 90vw;
+        height: auto;
+    }
+    .teams-head1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .teams-title1{
+        text-align: center;
+        padding: 0px 0 0px 0;
+    }
+
+    .teams-title1 h2{
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-size: 20px;
+        /* color: white; */
+        /* border: 2px solid white; */
+        border-radius: 10px;
+        padding: 10px 20px 10px 20px;
+        transition: 0.1s ease;
+    }
+
+    .teams-title1 h2:hover{
+        background-color: white;
+        color: black;
+        transition: 0.2s ease;
+    }
+}

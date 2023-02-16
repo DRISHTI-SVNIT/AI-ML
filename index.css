@@ -64,6 +64,14 @@ html
     font-size: 20px;
 }
 
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(200, 200, 200);
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: white;
+}
+
 .svnit_photo{
    width:150px;
    height: auto;
@@ -113,39 +121,38 @@ body
 .main-div{
     width: 100%;
     height: 100vh;
-    background-image: url(images/t1.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-image: url(images/ai_ml7.jpg);
+    background-size:contain;
+    background-position:center;
     background-repeat: no-repeat;
-    box-shadow: 0px -170px 180px 50px rgba(0, 0, 0, 0.9) inset, 0px 70px 90px 20px rgba(0, 0, 0, 0.7) inset;
+    box-shadow: 0px -10vw 70vw 8vw rgb(0 0 0) inset, 0px 5vw 7vw 1vw rgb(0 0 0) inset;
 }
 
-.robocon-image{
+.innovation-image{
     display: flex;
     justify-content: center;
 }
 
-.robocon-image .robocon-title{
+.innovation-image .innovation-title{
     bottom: 0;
-    position: absolute;
+    position:absolute;
     text-align: center;
     color: #fff;
     text-shadow: 0 0 30px black;
 }
 
-.robocon-image .robocon-title h3{
+.innovation-image .innovation-title h3{
     font-weight: bold;
-    letter-spacing: 8px;
-    font-size: 40px;
+    letter-spacing: 0.7vw;
+    font-size: 4vw;
     padding-bottom: 0;
 }
 
-.robocon-image .robocon-title h1{
+.innovation-image .innovation-title h1{
     font-weight: bolder;
-    letter-spacing: 10px;
-    font-size: 140px;
-    padding-bottom: 50px;
+    letter-spacing: 0.5vw;
+    font-size: 8vw;
+    padding-bottom: 3vw;
 }
 
 .about-section{
@@ -183,7 +190,7 @@ body
     padding: 40px 150px 40px 150px;
     background-color: #202328;
     color: #f8fafd;
-    background-image: url(images/ai-ml1.jpg);
+    background-image: url(images/ai-ml3.jpg);
     background-blend-mode: overlay;
     background-size: cover;
     background-position: center;
@@ -272,54 +279,45 @@ body
         margin-bottom: 0px;
     }
 
-    .svnit_photo{
-       width:120px;
-       height: auto;
-       margin-left: 0px;
-       margin-top: 0px;
-       margin-bottom: 0px;
-    }
-
-    .main-div{
+    /* .main-div{
         width: 100%;
-        height: auto;
-        background-image: none;
-        background-color: darkgray;
+        height: 95vh;
+        background-image: url(images/Team_innovation.jpg);
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) inset, 0px 0px 0px 0px rgba(0, 0, 0, 0) inset;
+    } */
+    .main-div{
+        background-image: url(images/ai_ml7.jpg);
+        height: 130vw;
+        /* background-position: bottom;
+        box-shadow: 0px 1vw 70vw 1vw rgb(0 0 0) inset, 0px 1vw 5vw 1vw rgb(0 0 0) inset; */
     }
-
-    .robocon-image{
+    /* .innovation-image{
+        position: relative;
         display: flex;
         justify-content: center;
-        height: 45vh;
-        background-image: url(images/t1.jpg);
-        background-size: cover;
-        background-position: center;
-        background-attachment: scroll;
+        width: 100%;
+        height: 80vh;
+        background-image: url(images/irc2020_1.jpg),url(images/irc2019final_3.jpg);
+        background-color: black;
+        background-size: contain;
+        background-position:
+            bottom 0px left 0px,
+            bottom 90px left 0px;
         background-repeat: no-repeat;
-        box-shadow: 0px -40px 60px 10px rgba(0, 0, 0, 0.9) inset, 0px 70px 90px 20px rgba(0, 0, 0, 0.7) inset;
+    } */
 
-    }
-
-    .robocon-image .robocon-title{
-        top: 28vh;
-        position: relative;
-        text-align: center;
-        color: #fff;
-        text-shadow: 0 0 30px black;
-    }
-
-    .robocon-image .robocon-title h3{
-        font-weight: bold;
-        letter-spacing: 5px;
-        font-size: 20px;
+    /* .innovation-image .innovation-title{
+        position: absolute;
+        top: 100px;
+    } */
+    .innovation-image .innovation-title h3{
+        font-size: 7vw;
         padding-bottom: 0;
     }
 
-    .robocon-image .robocon-title h1{
-        font-weight: bolder;
-        letter-spacing: 7px;
-        font-size: 40px;
-        padding-bottom: 0px;
+    .innovation-image .innovation-title h1{
+        font-size: 12vw;
+        padding-top: 0;
     }
 
     .about-section{
@@ -361,7 +359,7 @@ body
         padding: 40px 30px;
         background-color: #202328;
         color: #f8fafd;
-        background-image: url(images/robocon.jpg);
+        background-image: url(images/ai-ml3.jpg);
         background-blend-mode: overlay;
         background-size: cover;
         background-position: center;
@@ -423,4 +421,20 @@ body
         padding: 0px 15% 35px 15%;
     }
 
+}
+@media(max-width:450px)
+{
+    .dob
+    {
+        padding-right: 0px;
+        padding-left:0px;
+    }
+    .main-div{
+        background-position: bottom;
+        box-shadow: 0px 1vw 70vw 1vw rgb(0 0 0) inset, 0px 1vw 5vw 1vw rgb(0 0 0) inset; 
+    }
+    .innovation-image .innovation-title{
+        position: relative;
+        top: 10px;
+    }
 }
