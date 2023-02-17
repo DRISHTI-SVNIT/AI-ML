@@ -1,0 +1,362 @@
+/* custom fonts */
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-Regular.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Regular.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-Light.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Light.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Light.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-Medium.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Medium.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-Bold.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Bold.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-ExtraBold.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-ExtraBold.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-ExtraBold.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+
+
+
+
+/* start */
+
+
+
+
+
+html
+{
+    overflow-x: hidden;
+}
+.navbar-nav{
+    /* font-family: Arial; */
+    font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(200, 200, 200);
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: white;
+}
+
+.svnit_photo {
+   /* height:100px; */
+   width:150px;
+   height: auto;
+   margin-left: 10px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+.v1 {
+    height: 70px;
+    border-left: 1px solid white;
+    position: relative;
+    top : 0;
+    margin-left: 0%;
+}
+.v2 {
+    height: 70px;
+    border-left: 1px solid black;
+    position: relative;
+    top : 0;
+    margin-left: 0%;
+}
+
+.nit_photo{
+    width:80px;
+    height: auto;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body
+{
+    font-family: 'PlusJakartaSans', Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+.main-div{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/planet.png);
+    background-size:contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    box-shadow: 0px -10vw 70vw 8vw rgb(0 0 0) inset, 0px 5vw 7vw 1vw rgb(0 0 0) inset;
+}
+
+.ref-image{
+    display: flex;
+    justify-content: center;
+}
+
+.ref-image .ref-title{
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 30px black;
+}
+
+.ref-image .ref-title h3{
+    font-weight: bold;
+    letter-spacing: 0.7vw;
+    font-size: 3vw;
+    padding-bottom: 4vw;
+}
+
+.ref-image .ref-title h1{
+    font-weight: bolder;
+    letter-spacing: 0.5vw;
+    font-size: 5vw;
+    padding-bottom: 0;
+}
+
+.ref-aim{
+    text-align: center;
+    padding: 3vw 10%;
+}
+
+.ref-aim h1{
+    font-size: 50px;
+    font-weight: bolder;
+    padding-bottom: 25px;
+    letter-spacing: 0.2em;
+}
+
+.ref-aim p{
+    font-size: 22px;
+    text-align: justify;
+}
+.ref-aim ul{
+    font-size: 22px;
+    text-align: justify;
+}
+
+.image{
+    display: flex;
+    height: 28vw;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+@media (max-width:640px){
+    .v1 {
+        height: 50px;
+    }
+    .v2 {
+        height: 50px;
+    }
+
+    .nit_photo{
+        width:50px;
+        height: auto;
+        margin-left: 7px;
+        margin-right: 3px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+/* 
+    .main-div{
+        width: 100%;
+        height: auto;
+        background-image: none;
+        background-color: darkgray;
+    } */
+    .main-div{
+        background-image: url(images/planet.png);
+        height: 130vw;
+        /* background-position: bottom;
+        box-shadow: 0px 1vw 70vw 1vw rgb(0 0 0) inset, 0px 1vw 5vw 1vw rgb(0 0 0) inset; */
+    }
+    /* .ref-image{
+        height: 45vh;
+        background-image: url(images/envision/roverlink.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        box-shadow: 0px -50px 100px 20px rgba(0, 0, 0, 0.9) inset, 0px 10px 50px 10px rgba(0, 0, 0, 0.4) inset;
+        display: flex;
+        justify-content: center;
+    } */
+
+    /* .ref-image .ref-title{
+        top: 25vh;
+        position: relative;
+        text-align: center;
+        color: #fff;
+        text-shadow: 0 0 30px black;
+    }
+
+    .ref-image .ref-title h3{
+        font-weight: bold;
+        letter-spacing: 5px;
+        font-size: 21px;
+        padding-bottom: 20px;
+    }
+    
+    .ref-image .ref-title h1{
+        font-weight: bolder;
+        letter-spacing: 7px;
+        font-size: 50px;
+    } */
+    .ref-image .ref-title{
+        padding-bottom: 17VW;
+    }
+    .ref-aim h1{
+        font-size: 30px;
+    }
+    
+    .ref-aim p{
+        font-size: 15px;
+        text-align: justify;
+    }
+    .ref-aim ul{
+        font-size: 15px;
+        text-align: justify;
+    }
+    .image{
+        justify-content: center;
+        height: 40vw;
+    }
+    
+
+/* -------------------------------------------------------------------------------------------------------------- */
+}
+
+
+
+
+
+
+@media(max-width:978px)
+{
+    .hello
+    {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 600.98px) {
+    .con{
+    border:2px solid transparent;
+    padding-left: 20px;
+    padding-right: 10px;
+    }
+    .svnit_photo {
+        margin-left: 0%;
+        /* height: 75px; */
+        width: 130px;
+        height: auto;
+    }
+    .hello1{
+    height: 250px;
+    }
+
+    .hello2{
+    height: 250px;
+    }
+
+    .hello3{
+    height: 250px;
+    }
+    .about_us_content
+    {
+        font-weight: 400;
+    }
+    .pad_data
+    {
+        font-weight: 400;
+    }
+}
+.dob .x
+{
+    color:white;
+     padding-top:30px;
+}
+@media(max-width:800px)
+{
+    .dob .x{
+        padding-top:4px;
+    }
+}
+.dob
+{
+    padding-left: 50px;
+     padding-top: 50px;
+    padding-right: 50px;
+}
+@media(max-width:460px)
+{
+    .dob
+    {
+        padding-right: 0px;
+        padding-left:0px;
+    }
+    .main-div{
+        background-position: bottom;
+        box-shadow: 0px 1vw 70vw 1vw rgb(0 0 0) inset, 0px 1vw 5vw 1vw rgb(0 0 0) inset; 
+    }
+    .ref-image .ref-title{
+        position: relative;
+        top: 10px;
+    }
+}
+@media(max-width:978px)
+{
+    .ifr
+    {
+        padding-top: 80px;
+    }
+}

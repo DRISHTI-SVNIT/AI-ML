@@ -2,147 +2,108 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="google-site-verification" content="G4gClB66Jr2h0XiecdD1OyTE0HCHwwS707_GIuEMCfU" />
+        <meta name="description"
+            content="The DRISHTI-ROBOCON is a student initiative at SVNIT to build robots for participating in ABU-ROBOCON">
+        <meta name="keywords" content="Drishti,ROBOCON, robocon,WE,ME">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="keywords" content="DRISHTI,SVNIT,AI,ML,Engineering,Artificial Intelligence, Machine Learning, Deep Learning,technology,computer science">
-        <meta name="description" content="Explore all machine learning and computer vision projects implemented by DRISHTI,SVNIT">
         <title>
-            AI Image Colorization
+            AI IMAGE COLORIZATION
         </title>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/fontawesome.min.css">
         <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
         <link rel="manifest" href="favicon_io/site.webmanifest">
-        <link rel="stylesheet" type="text/css" media="screen" href="index.css">
-        <style>
-            p,ol,h4 {
-                font-size: 22px;
-            }
-            .bgr {
-                background-image: url(images/ai-ml3.jpg);  
-                background-size: cover; 
-                background-color: rgba(224,224,224,0.6); 
-                background-blend-mode: lighten;
-            }
-            @media(max-width:600px) {
-                p ,ol,h4{
-                    font-size:20px ;
-                }
-                /* .bgr {
-                    background-size: 300% 100%;
-                    background-position: center;
-                } */
-                
-            }
-        </style>
+        <link href="css/all.min.css" rel="stylesheet">
+        <link href="css/fontawesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="footer.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="aicolorization.css">
     </head>
     <body>
-        <div class="bgr">
-            <div style="background-color: rgba(224,224,224,0.4);">
-                <nav class="navbar navbar-expand-md navbar-light">
-                    <a href ="https://drishti-svnit.github.io/drishti/" class="navbar-brand">
-                        <img src="images/drishti_3.png" class="svnit_photo" style="padding-top: 0; padding-bottom: 0;"> 
-                    </a>
-                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="menu">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item"style="font-weight: 800;"><a href="index.html" class="nav-link" style="color:black;">Home</a></li>
-                                <li class="nav-item dropdown dropleft float-right"style="font-weight: bold;">
-                                    <a href="#" class="nav-link dropdown-toogle" data-toggle="dropdown" style="color:black;">Projects</a>
-                                    <div class="dropdown-menu dropdown-menu-right"style="background-color:rgb(0,0,0);">
-                                        <a href="acs.html" class="dropdown-item" style="color: white;">
-                                            AUTOMATED CHECK-IN SYSTEM
-                                        </a>
-                                        <a href="aicolorization.html" class="dropdown-item" style="color: white;">
-                                            AI IMAGE COLORIZATION
-                                        </a>
-                                        <a href="gisa.html" class="dropdown-item" style="color: white;">
-                                            GISA
-                                        </a>
-                                        <a href="planet.html" class="dropdown-item" style="color: white;">
-                                            PLANET
-                                        </a>
-                                        <a href="virtuon.html" class="dropdown-item" style="color: white;">
-                                            VIRTUON
-                                        </a>
-                                        <a href="tunex.html" class="dropdown-item" style="color: white;">
-                                            TUNEX
-                                        </a>
-                                        </div>
-                                </li>
-                            <li class="nav-item"style="font-weight: bold;"><a href="aicolorization_gallery.html" class="nav-link" style="color:black;" id = "contact">Gallery</a></li>
-                            <li class="nav-item"style="font-weight: bold;"><a href="index.html#down" class="nav-link" style="color:black;" id = "contact">Contact</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-           <div class = "a"></div>
-           <br>
-           <div class="con">
-            <div class="row">
-                <div class="col-12 text-center" style=" font-family: Arial, Helvetica, sans-serif; font-size: 40px; font-weight: bold;">
-                   AI IMAGE COLORIZATION
-                </div>
-            </div>
-            <br><br>
-               <div class="row">
-                <div class="col-lg-6 col-md-4" style="text-align: center;">
-                    <img src = "images/lamp.png">
-                    <br>
-                   <a href="#idea" style="color: white;"><h6 style="padding-top: 10px;">THE THOUGHT</h6></a> 
-                </div>
-                <div class="col-lg-6 col-md-4" style="text-align: center;">
-                    <img src = "images/workflow.png">
-                    <br>
-                   <a href="#idea" style="color: white;"><h6 style="padding-top: 10px;">WORKFLOW</h6></a> 
-                </div>
-               </div>
-              <br><br> 
-            <div class="row">
-                <div class="col-lg-8 col-md-12" id="idea">
-                    <h3 style="text-align: center; font-weight: 800;" class="fk">
-                        THOUGHT
-                    </h3>
-                    <h4 style="padding-top: 5px;text-align:justify; font-weight: 500; ">
-                        If you are given a task to color a black and white picture, it’s tough to color without knowing the situation or
-                         the moment in which the picture was taken. Now think how wonderful it would be if you have a model that automatically
-                          fills the color in the photo. We have built a model based on Machine Learning that could colorize images without any 
-                          human effort. 
-                    </h4>
-                </div>
-                <div class="col-lg-4 col-md-12 text-center" style="padding-top: 20px;">
-                    <img class="img-fluid " src="images/AI image colourization/RESULTS (2).png" alt="colorization pic" style="height: 300px; margin-left: auto;margin-right: auto; display: inline-block;">
-                </div>
-            </div>
-           
-            <br>
-            <div class="row justify-content-left" style="margin-top: 3%;">
-                <div class="col-lg-8 col-sm-12" id="idea">
-                    <h2 style="text-align: left; font-weight: 600; font-family: 'Times New Roman', Times, serif;" class="fk">WORKFLOW</h2>
-                    <ol style="text-align: justify; font-weight: 500; " class="fk">
-                        <li>DATASET PHASE
-                            <ol>
-                                <li>Data Augmentation</li>
-                                <li>Data Cleaning</li>
-                                <li>Data Collection</li>
-                                <li>Data Compression Techniques</li>
-                            </ol>
+        <div class="main-div">
+            <nav class="navbar navbar-expand-md navbar-light" style="background-color: rgba(2,2,2,0.4);">
+                <a href="http://svnit.ac.in/" class="navbar-brand">
+                    <img class="nit_photo" src="images/svnit.png">
+                </a>
+                <div class="navbar-brand v1"></div>
+                <a href="https://drishti-svnit.github.io/drishti/" class="navbar-brand">
+                    <img src="images/logoleft.jpg" class="svnit_photo">
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item" style="font-weight: bold; margin-right: 20px;"><a href="index.html"
+                                class="nav-link">Home</a></li>
+                        <li class="nav-item" style="font-weight: bold; margin-right: 20px;"><a href="gallery.html"
+                                class="nav-link">Gallery</a></li>
+                        <li class="nav-item dropdown " style="font-weight: bold;  margin-right: 20px;">
+                            <a href="#" class="nav-link dropdown-toogle" data-toggle="dropdown">Projects</a>
+                            <div class="dropdown-menu" style="background-color: rgb(220,220,220);">
+                                <a href="tunex.html" class="dropdown-item">
+                                    Tunex
+                                </a>
+                                <a href="virtuon.html" class="dropdown-item">
+                                    Virtuon
+                                </a>
+                                <a href="gisa.html" class="dropdown-item">
+                                    GISA
+                                </a>
+                                <a href="planet.html" class="dropdown-item">
+                                    PlaNet
+                                </a>
+                                <a href="acs.html" class="dropdown-item">
+                                    Automated-Check-in-System
+                                </a>
+                                <a href="aicolorization.html" class="dropdown-item">
+                                    Ai-image-Colorization
+                                </a>
+                            </div>
                         </li>
-                        <li>NN PHASE: Neural Network model framework (Convolutional Neural Network)</li>
-                        <li>ALPHA VERSION 6 . BETA VERSION</li>
-                        <li>Need of GPU</li>
-                        <li>Tuning Phase</li>
-                    </ol>
+                        <li class="nav-item" style="font-weight: bold; margin-right: 40px;"><a href="#down"
+                                class="nav-link">Contact</a></li>
+                    </ul>
                 </div>
-            </div>
-            <br>
-            <div style="text-align: center;font-size: 20px; font-weight: bold;padding-top: 20px; margin-bottom: 3%;">
-                <a href="#top"><button type="button" class="btn btn-info btn-lg" style="font-size: 18px; font-weight: bold; ">BACK TO TOP</button></a>
+            </nav>
+            <div class="ref-image">
+                <div class="ref-title">
+                    <h1>
+                        AI IMAGE COLORIZATION
+                    </h1>
+                    <h3>2018-2019</h3>
+                </div>
             </div>
         </div>
+
+        <br><br><br>
+        <div class="ref-aim">
+            <h1>THOUGHT</h1>
+            <p>                        If you are given a task to color a black and white picture, it’s tough to color without knowing the situation or
+                the moment in which the picture was taken. Now think how wonderful it would be if you have a model that automatically
+                 fills the color in the photo. We have built a model based on Machine Learning that could colorize images without any 
+                 human effort. </p>
+            <p><b>WORKFLOW</b></p>
+            <P>
+                <ul>
+                    <li>DATASET PHASE
+                        <ol>
+                            <li>Data Augmentation</li>
+                            <li>Data Cleaning</li>
+                            <li>Data Collection</li>
+                            <li>Data Compression Techniques</li>
+                        </ol>
+                    </li>
+                    <li>NN PHASE: Neural Network model framework (Convolutional Neural Network)</li>
+                    <li>ALPHA VERSION 6 . BETA VERSION</li>
+                    <li>Need of GPU</li>
+                    <li>Tuning Phase</li>
+                </ul>
+            </P>
+        </div>
+
+
     </body>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
