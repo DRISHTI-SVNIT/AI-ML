@@ -211,47 +211,91 @@ body
     text-align: justify;
 }
 
-.robocon-status{
-    display: flex;
+.teams-head{
     width: 100%;
-    margin-top: 30px;
-}
-
-.robocon-year{
-    width: 25%;
-    text-align: center;
-    padding-top: 80px;
-}
-
-.robocon-year h1{
-    font-weight: bolder;
-    font-size: 70px;
-}
-
-.robocon-year h3{
-    font-weight: bolder;
-    font-size: 30px;
-}
-
-.robocon-year-info{
-    width: 75%;
-}
-
-.year-info{
-    padding: 30px 100px 30px 60px;
-    font-size: 20px;
-    text-align: justify;
-}
-
-.year-images{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }
 
-.year-images img{
-    width: 45%;
-    padding: 0px 0px 35px 40px;
+.teams-title{
+    text-align: center;
+    padding: 20px 0 0 0;
 }
 
+.teams-title h2{
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 4vw;
+    /* color: rgb(20,34,41); */
+    /* color: white; */
+    /* border: 2px solid rgb(20,34,41); */
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 14px 50px 14px 50px;
+    transition: 0.1s ease;
+}
+
+.teams-title h2:hover{
+    /* background-color: rgb(20,34,41);
+    color: rgb(245, 251, 253); */
+    background-color: white;
+    color: black;
+    transition: 0.2s ease;
+}
+
+.projects{
+    width: 90%;
+    margin: 5%;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-box{
+    width: 80%;
+    height: 20.9vw;
+    margin: 10%;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    /* background-color: black; */
+    border: 0.2px solid black;
+}
+
+.project-box img{
+    /* width: 100%; */
+    height: 17.9vw;
+    /* border-radius: 10px; */
+    border: 0.2px solid black;
+    /* box-shadow: 0 0 25px rgba(0, 0, 0, 0.3); */
+}
+.project-box h2{
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    color: black;
+    font-size: 1.7em;
+}
+
+.project-box a span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    z-index: 1;
+    background-color: black;
+    opacity: 0;
+    border-radius: 5px;
+    transition: 0.1s;
+}
+
+.project-box a span:hover{
+    opacity: 0.5;
+    transition: 0.2s;
+}
 
 
 
@@ -380,45 +424,73 @@ body
         text-align: justify;
     }
 
-    .robocon-status{
-        display: grid;
+    .teams-head{
         width: 100%;
-        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
     }
-
-    .robocon-year{
-        width: 100%;
+    .teams-title{
         text-align: center;
-        padding-top: 0px;
+        padding: 0px 0 0px 0;
     }
 
-    .robocon-year h1{
-        font-weight: bolder;
-        font-size: 60px;
+    .teams-title h2{
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-size: 20px;
+        /* color: white; */
+        /* border: 2px solid white; */
+        border-radius: 10px;
+        padding: 10px 20px 10px 20px;
+        transition: 0.1s ease;
     }
 
-    .robocon-year h3{
-        font-weight: bolder;
-        font-size: 25px;
+    .teams-title h2:hover{
+        background-color: white;
+        color: black;
+        transition: 0.2s ease;
     }
-
-    .robocon-year-info{
-        width: 100%;
-    }
-
-    .year-info{
-        padding: 15px 30px;
-        font-size: 13px;
-        text-align: justify;
-    }
-
-    .year-images{
+    .projects{
+        width: 96%;
+        margin: 2%;
         display: grid;
+        grid-template-columns: 1fr 1fr;
     }
-
-    .year-images img{
+    
+    .project-box{
+        height: 36.8vw;
+        position: relative;
+    }
+    
+    .project-box img{
+        height: 28.8vw;
+    }
+    
+    .project-box h2{
+        position: absolute;
+        bottom: 2px;
+        left: 8px;
+        font-size: 0.7em;
+    }
+    
+    .project-box a span{
+        position: absolute;
         width: 100%;
-        padding: 0px 15% 35px 15%;
+        height: 100%;
+        top:0;
+        left:0;
+        z-index: 1;
+        background-color: black;
+        opacity: 0;
+        border-radius: 10px;
+        transition: 0.1s;
+    }
+    
+    .project-box a span:hover{
+        opacity: 0.5;
+        transition: 0.2s;
     }
 
 }
